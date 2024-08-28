@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+bs4 = "*"
+djangorestframework = "*"
+python-decouple = "*"
+django-debug-toolbar = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+pyjwt = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
